@@ -330,6 +330,10 @@ hr {
     line-height: 30px;
   }
 
+  #divider {
+    background: url("./images/redBG.png") no-repeat center center scroll;
+  }
+
   #soft-skills {
     font-size: 15px;
     line-height: 30px;
