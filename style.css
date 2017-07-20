@@ -36,21 +36,20 @@ a:hover {
 }
 
 .social-nav {
-  margin-top: -25px;
+  margin-top: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 #twitter-icon {
   width: 29px;
   height: 29px;
-  float: right;
-  margin-right: 40px;
 }
 
 #github-icon {
   width: 31px;
   height: 31px;
-  float: right;
-  margin-right: 10px;
 }
 
 #top-section {
@@ -265,7 +264,7 @@ hr {
 
 #email-icon {
   display: block;
-  margin: 5px auto;
+  margin: 10px auto;
   width: 50px;
 }
 
@@ -274,35 +273,10 @@ hr {
 
 @media screen and (max-width: 647px) {
 
-  /*header {
-    height: 75px;
-  }*/
-
   .nav-links {
     font-size: 13px;
   }
 
-  .social-nav {
-    margin-top: -20px;
-  }
-
-  #twitter-icon {
-    /*width: 25px;
-    height: 25px;
-    float: right;
-    margin-right: 20px;
-    padding-top: 20px;*/
-    opacity: 0;
-  }
-
-  #github-icon {
-    /*width: 27px;
-    height: 27px;
-    float: right;
-    margin-right: 7px;
-    padding-top: 20px;*/
-    opacity: 0;
-  }
 
   #top-section {
     background: url("./images/black.jpg") no-repeat center center scroll;
