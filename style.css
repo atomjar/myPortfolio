@@ -382,4 +382,8 @@ hr {
   #contact-heading {
     font-size: 30px;
   }
+
+  #bottom-aside {
+    padding-bottom: 40px;
+  }
 }
